@@ -42,12 +42,12 @@ public class ControleurBtnChoix extends Observable {
 
 				if (partie.etatTour.phaseActuel == Phase.CHOIXVERSION) {
 
-					if (btn.getText().equals("NON")) {
+					if (btn.getText().equals(interfaceGraph.getTexteNon())) {
 						System.out.println("N");
 						partie.setAdvanced(false);
 						partie.nombreDeJoueur();
 
-					} else {
+					} else {//Oui
 						System.out.println("O");
 						partie.setAdvanced(true);
 						partie.nombreDeJoueur();

@@ -74,35 +74,51 @@ public class Carte {
 		String S="";
 
 		if(remplissage==Remplissage.PLEIN){
-			if(forme== Forme.CARRE){
+			switch(forme) {
+			case CARRE:
 				S=S+"■";
-			}
-			else if(forme == Forme.TRIANGLE){
+				break;
+			case TRIANGLE:
 				S=S+"▲";
-			}
-			else if(forme == Forme.CERCLE){
-				S+="●";
+				break;			
+			case CERCLE:
+				S=S+"●";
+				break;
+			default:
+				System.out.print("Forme inconnue\n");
+				break;
 			}
 		}
 		else if(remplissage==Remplissage.VIDE){
-			if(forme== Forme.CARRE){
+			switch(forme) {
+			case CARRE:
 				S=S+"□";
-			}
-			else if(forme == Forme.TRIANGLE){
+				break;
+			case TRIANGLE:
 				S=S+"△";
-			}
-			else if(forme == Forme.CERCLE){
-				S+="○";
-			}
+				break;			
+			case CERCLE:
+				S=S+"○";
+				break;
+			default:
+				System.out.print("Forme inconnue\n");
+				break;
 		}
-		if(couleur==Couleur.ROUGE){
+		}
+		
+		
+		switch(couleur) {
+		case ROUGE:
 			S=S+"R";
-		}
-		else if(couleur==Couleur.BLEU){
+			break;
+		case BLEU:
 			S=S+"B";
-		}
-		else if(couleur==Couleur.VERT){
+			break;
+		case VERT:
 			S+="V";
+			break;
+		default:
+			System.out.print("Couleur inconnue\n"); 
 		}
 
 		return S;
