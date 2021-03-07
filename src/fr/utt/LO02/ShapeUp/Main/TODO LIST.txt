@@ -1,5 +1,5 @@
 	*CHOSES A FAIRE GUI:
-	*rendre plus claires les isntructions affiché en gui, peut etre buffer plusieurs instructions de fois
+	*rendre plus claires les isntructions affiché en gui, peut etre buffer plusieurs instructions des fois
 	*resize les icones pour qu'elle s'affichent si la fenetre est plus petite
 	*fixer le panel afin que le tepis ne change pas de taille lorque l'on pose notre carte en partie normale
 	*icone plus joli pour les coups possibles

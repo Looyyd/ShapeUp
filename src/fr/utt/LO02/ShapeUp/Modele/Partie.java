@@ -24,11 +24,15 @@ public class Partie extends Observable {
 
 	private ArrayList<Strategie> listeStrategies = new ArrayList<Strategie>();
 
+	
+	/*
+	 * this initialites the array of possible strategies, add a new strategy here
+	 * 
+	 */
 	private void initStrategies() {
 		//essayer de la mettre dans l'ordre de difficulté
 		listeStrategies.add(new StrategiePlacementSeulementAvecCalculScore());
 		listeStrategies.add( new StrategieAvecMouveument());
-		listeStrategies.add(new StragegieMystere());
 
 	}
 	
