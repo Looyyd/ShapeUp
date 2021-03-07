@@ -20,7 +20,7 @@ les plus grossières en mars 2021.
  
  
  Pour jouer sans recréer depuis les fichiers source on peut utiliser **l'archive .jar 'Executable.jar'** Cependant elle nécessite le dossier
- fr.utt.LO02.ShapeUp.images pour que les images s'affichent.
- Sur Linux on peut l'executer avec la commande:** java -jar Executable.jar**
+ fr.utt.LO02.ShapeUp.images pour que les images s'affichent. 
+ Sur Linux on peut l'executer avec la commande: **java -jar Executable.jar **
  
  
