@@ -1,20 +1,14 @@
 package fr.utt.LO02.ShapeUp.Modele;
 import java.util.ArrayList;
 
-public class StrategieAvecMouveument implements Strategie{
+public  class StrategieAvecMouveument implements Strategie{
 	
-    private ArrayList<Coup> coupsLegaux ;
-    private ArrayList<Coup> mouvementsLegaux;
-    private ArrayList<Cardinaux> decalagesMouvement;
-    private ArrayList<Cardinaux> decalagesCoups;
-    Coup meilleurCoup;
-    Coup meilleurMouvement;
-    Cardinaux decalageMeilleurCoup;
-    Cardinaux decalageMeilleurMouvement;
-    Integer i;
-    Integer scoreMax,imax,jmax;
-    Integer score;
-    Carte carteABouger;
+
+    
+    @Override
+    public String getNomDifficulté() {
+    	return "Difficile";
+    }
 
     /**
      * execute a full turn. with this strategy the Ia will always first move a card the place a card. The best move is
@@ -25,8 +19,32 @@ public class StrategieAvecMouveument implements Strategie{
      * @param joueur
      */
     @Override
-    public void effectuerTour(Tapis tapis, Carte cartePioche, Joueur joueur) {
-        scoreMax = -10;//on initialise un score negatif
+    public  void effectuerTour(Tapis tapis, Carte cartePioche, Joueur joueur) {
+
+        ArrayList<Coup> coupsLegaux ;
+        ArrayList<Coup> mouvementsLegaux;
+        ArrayList<Cardinaux> decalagesMouvement;
+        ArrayList<Cardinaux> decalagesCoups;
+    	
+    	
+        //nulls for uninisialized variable warning
+        Coup meilleurCoup = null;
+        Coup meilleurMouvement = null;
+        Cardinaux decalageMeilleurCoup = null;
+        Cardinaux decalageMeilleurMouvement = null;
+        Integer scoreMax,imax = null,jmax=null;
+        Integer score;
+        Carte carteABouger;
+
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	scoreMax = -10;//on initialise un score negatif
         int i, j,k ,l;
         Carte [][] cases = tapis.getCases();//passé par reference
         if(tapis.getNombreDeCartesPoses()==1){//si qu'une carte posé on ne peut pas la bouger donc on va juste placer une carte

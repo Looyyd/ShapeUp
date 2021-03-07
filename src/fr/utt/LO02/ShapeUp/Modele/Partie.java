@@ -21,6 +21,20 @@ import fr.utt.LO02.ShapeUp.Vue.VueLigneCommande;
  *
  */
 public class Partie extends Observable {
+
+	private ArrayList<Strategie> listeStrategies = new ArrayList<Strategie>();
+
+	private void initStrategies() {
+		//essayer de la mettre dans l'ordre de difficulté
+		listeStrategies.add(new StrategiePlacementSeulementAvecCalculScore());
+		listeStrategies.add( new StrategieAvecMouveument());
+
+	}
+	
+	public ArrayList<Strategie> getListStrategies() {
+		return listeStrategies;
+	}
+	
 /**
  * The attribute nbJoueur represents the number of real players in the game.
  */
@@ -566,6 +580,7 @@ public class Partie extends Observable {
 
 	public Partie() {
 		partie = this;
+		initStrategies();
 		this.typeDePartie();
 	}
 	public void setTapis(Tapis tapis) {
@@ -607,9 +622,18 @@ public class Partie extends Observable {
 
 		if(nbJoueur<typePartie) {//seulement si il y a des IA dans la partie
 			System.out.println("Selectionnez la difficulté des IA :");
-			System.out.println("0)intermediaire");
-			System.out.println("1)difficile");
-			this.setChangedAndNotifyObserverString("Selectionnez la difficulté des IA :"+"0)intermediaire"+"1)difficile");
+			int i=0;
+			String msg= "";
+			String ligne;
+			for(Strategie strat : listeStrategies) { //loops over every available strategy
+				ligne = i+")" + strat.getNomDifficulté();
+				msg += ligne;
+				System.out.println(ligne);
+				i++;
+			}
+			
+
+			this.setChangedAndNotifyObserverString("Selectionnez la difficulté des IA :"+msg);
 		}else {
 			this.nommerJoueur();
 		}
@@ -634,11 +658,16 @@ public class Partie extends Observable {
 		}
 		for (int i = this.nbJoueur; i < this.typePartie; i++) { // creation des joueurs virtuels
 			this.joueurCree[i] = new Joueur("BOT" + (i - this.nbJoueur + 1), true);// BOT1 puis BOT2 etc..
+			
+			joueurCree[i].strategie = listeStrategies.get(difficulte);
+
+			
+			/*
 			if (difficulte == 0) {
 				joueurCree[i].strategie = new StrategiePlacementSeulementAvecCalculScore();
 			} else if (difficulte == 1) {
 				joueurCree[i].strategie = new StrategieAvecMouveument();
-			}
+			}*/
 		}
 	}
 

@@ -1,4 +1,5 @@
 package fr.utt.LO02.ShapeUp.Modele;
+
 /**
  * This interface implement method to execute a turn
  * @author petit
@@ -6,4 +7,5 @@ package fr.utt.LO02.ShapeUp.Modele;
  */
 public interface Strategie {
     void effectuerTour(Tapis tapis, Carte cartePioche, Joueur joueur);
+    String getNomDifficulté();
 }

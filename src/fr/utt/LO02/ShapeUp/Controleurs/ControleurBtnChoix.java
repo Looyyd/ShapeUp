@@ -10,6 +10,7 @@ import fr.utt.LO02.ShapeUp.Modele.Carte;
 import fr.utt.LO02.ShapeUp.Modele.JeuDeCarte;
 import fr.utt.LO02.ShapeUp.Modele.Partie;
 import fr.utt.LO02.ShapeUp.Modele.Phase;
+import fr.utt.LO02.ShapeUp.Modele.Strategie;
 import fr.utt.LO02.ShapeUp.Modele.Tapis;
 import fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique;
 import fr.utt.LO02.ShapeUp.Vue.InterfaceGraphiqueChoix;
@@ -74,13 +75,28 @@ public class ControleurBtnChoix extends Observable {
 					notifyObservers();
 
 				} else if (partie.etatTour.phaseActuel == Phase.CHOIXDIFFICULTEIA) {
+					int i=0;
+					boolean difficultySet=false;
+					for(Strategie strat : partie.getListStrategies()) {
+						if(strat.getNomDifficulté().equals(btn.getText())) {
+							System.out.println(i);
+							partie.setDifficulte(i);
+							difficultySet=true;
+						}
+						i++;
+					}
+					
+					if(!difficultySet)
+						System.out.println("ERREUR difficulté non trouvée");
+					
+					/*
 					if (btn.getText().equals("Interm�diare")) {
 						System.out.println("0");
 						partie.setDifficulte(0);
 					} else {
 						System.out.println("1");
 						partie.setDifficulte(1);
-					}
+					}*/
 
 					if (partie.getNbJoueur() != 0) {
 						partie.nommerJoueur();

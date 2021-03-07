@@ -5,13 +5,15 @@ import java.util.ArrayList;
 * trouve car ce n'est qu'après que plusieurs cartes soit alignés que le score augemente
  */
 public class StrategiePlacementSeulementAvecCalculScore implements Strategie{
-    private ArrayList<Coup> coupsLegaux ;
-    Integer i;
-    Integer scoreMax,imax;
-    Integer score;
+
     @Override
     public void effectuerTour(Tapis tapis, Carte cartePioche, Joueur joueur) {
-        scoreMax = -10;//on initialise un score negatif
+        ArrayList<Coup> coupsLegaux ;
+        Integer i;
+        Integer scoreMax,imax = null;//uninitialized variable warning
+        Integer score;
+    
+    	scoreMax = -10;//on initialise un score negatif
         coupsLegaux=tapis.genererPlacementsLegaux(cartePioche);
 
         for(i=0;i<coupsLegaux.size();i++){
@@ -30,4 +32,8 @@ public class StrategiePlacementSeulementAvecCalculScore implements Strategie{
         tapis.effectuerCoup(coupsLegaux.get(imax),tapis.getDecalageAFaire().get(imax));//on applique le coup i
 
     }
+	@Override
+	public String getNomDifficulté() {
+		return "Intermediaire";
+	}
 }
