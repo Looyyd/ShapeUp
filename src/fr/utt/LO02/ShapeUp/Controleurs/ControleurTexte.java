@@ -185,7 +185,7 @@ public class ControleurTexte extends Observable {
 				System.out.println("Veuillez donner un nombre");
 				return;
 			}
-			if (inputDansBornes(0, 1, inputAsInt)) {
+			if (inputDansBornes(0, partie.getListStrategies().size(), inputAsInt)) {
 				partie.setDifficulte(inputAsInt);
 
 				if (partie.getNbJoueur() != 0) {

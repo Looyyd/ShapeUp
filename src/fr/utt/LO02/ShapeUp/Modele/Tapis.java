@@ -179,7 +179,7 @@ public class Tapis extends Observable{
 	}
 
 	/**
-	 * Makes the possible board shapes
+	 * Makes the possible board shapes	
 	 * @see #formeARespecter
 	 */
 	public void creerFormeARespecter() {

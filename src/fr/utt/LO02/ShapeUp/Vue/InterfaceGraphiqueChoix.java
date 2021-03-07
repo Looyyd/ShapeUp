@@ -39,6 +39,7 @@ public class InterfaceGraphiqueChoix implements Observer {
 	private ControleurTexte ctrlTexte;
 	private String texteOui = "OUI";
 	private String texteNon = "NON";
+	private ArrayList<JButton> boutonsDifficulte=new ArrayList<JButton>();
 	
 	
 	public String getTexteOui(){
@@ -148,19 +149,22 @@ public class InterfaceGraphiqueChoix implements Observer {
 				if (partie.getTypePartie()==3) {
 					frame.getContentPane().remove(btn.get(3));
 				}
-				
+				frame.getContentPane().remove(btn.get(1));
+				frame.getContentPane().remove(btn.get(0));
 				
 				int i=0;
 				String texte;
 				int x= 50, y=145, width=0, height=23;
 				for(Strategie strat: partie.getListStrategies()) {
+					JButton bouton = btn.get(i);//FIXME there could be not enough buttons created
+					frame.getContentPane().add(bouton);
 					texte = strat.getNomDifficulté();
 					x=x+width+5;//width of last + a margin of 5
 					//y stays constant
 					width=texte.length()*10;//10 for every character chosen by experimenting
 					//height stays constant
-					btn.get(i).setText(texte);//FIXME there could be not enough buttons if a lot of strategies were to be added
-					btn.get(i).setBounds(x, y, width, height);
+					bouton.setText(texte);//FIXME there could be not enough buttons if a lot of strategies were to be added
+					bouton.setBounds(x, y, width, height);
 					i++;
 				}
 

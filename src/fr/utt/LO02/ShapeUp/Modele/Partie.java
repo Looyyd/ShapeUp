@@ -28,6 +28,7 @@ public class Partie extends Observable {
 		//essayer de la mettre dans l'ordre de difficulté
 		listeStrategies.add(new StrategiePlacementSeulementAvecCalculScore());
 		listeStrategies.add( new StrategieAvecMouveument());
+		listeStrategies.add(new StragegieMystere());
 
 	}
 	
