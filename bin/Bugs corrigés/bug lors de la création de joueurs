@@ -1,0 +1,21 @@
+/home/filip/.jdks/openjdk-15/bin/java -javaagent:/opt/idea-IU-202.7319.50/lib/idea_rt.jar=36585:/opt/idea-IU-202.7319.50/bin -Dfile.encoding=UTF-8 -classpath /home/filip/Documents/LO02/bin Main.Main
+Voulez vous jouer � la version advanced du Shape Up ? O/N
+N
+ShapeUp à 2 ou 3 joueurs
+3
+Entrez le nombre de joueur r�els ? (de 0 � 3) :2
+Selectionnez la difficulté des IA :
+0)intermediaire
+1)difficile
+0
+Entrez le nom d'un joueur : L
+Exception in thread "Thread-0" java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at Modele.Partie.creerJoueurs(Partie.java:402)
+	at Controleurs.ControleurTexte.inputTexte(ControleurTexte.java:204)
+	at Vue.VueLigneCommande.run(VueLigneCommande.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:832)

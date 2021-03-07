@@ -1,0 +1,6 @@
+/home/filip/.jdks/openjdk-15/bin/java -javaagent:/opt/idea-IU-202.7319.50/lib/idea_rt.jar=37993:/opt/idea-IU-202.7319.50/bin -Dfile.encoding=UTF-8 -classpath /home/filip/Documents/LO02/bin Main.Main
+Voulez vous jouer � la version advanced du Shape Up ? O/N
+N
+N
+N
+N

@@ -1,0 +1,36 @@
+Semble avoir été reglé sans avoir enlevé le fichier?
+
+2 '0' a input vers la fin
+
+/home/filip/.jdks/openjdk-15/bin/java -javaagent:/opt/idea-IU-202.7319.50/lib/idea_rt.jar=39081:/opt/idea-IU-202.7319.50/bin -Dfile.encoding=UTF-8 -classpath /home/filip/Documents/LO02/bin Main.Main
+Voulez vous jouer � la version advanced du Shape Up ? O/N
+O
+Shape Up a 2 ou 3 joueurs ? : 3
+Entrez le nombre de joueur réels ? (de 1 a 3) :loyd
+Veuillez saisir un nombre
+Entrez le nombre de joueur réels ? (de 1 a 3) :1
+Selectionnez la difficulté des IA :
+0)intermediaire
+1)difficile
+1
+Entrez le nom d'un joueur : L
+Quel type de tapis souhaitez vous ?
+Les . representes les emplacements de carte
+Le tapis 0):
+.....
+.....
+.....
+Le tapis 1):
+XX.XX
+XX.XX
+X...X
+.....
+.....
+0
+0) Carte [couleur=VERT, forme=CERCLE, remplissage=VIDE]
+1) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+2) Carte [couleur=ROUGE, forme=CARRE, remplissage=PLEIN]
+Quelle carte voulez vous placer ?
+0
+0
+Votre carte a été placer par défaut

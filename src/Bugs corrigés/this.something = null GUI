@@ -1,0 +1,42 @@
+
+
+/home/filip/.jdks/openjdk-15/bin/java -javaagent:/opt/idea-IU-202.7319.50/lib/idea_rt.jar=36829:/opt/idea-IU-202.7319.50/bin -Dfile.encoding=UTF-8 -classpath /home/filip/Documents/LO02/bin Main.Main
+Voulez vous jouer � la version advanced du Shape Up ? O/N
+N
+Shape Up a 2 ou 3 joueurs ? : 1
+Shape Up a 2 ou 3 joueurs ? : 3
+Entrez le nombre de joueur réels ? (de 1 a 3) :1
+Selectionnez la difficulté des IA :
+0)intermediaire
+1)difficile
+0
+Entrez le nom d'un joueur : Loyd
+Quel type de tapis souhaitez vous ?
+Les . representes les emplacements de carte
+Le tapis 0):
+.....
+.....
+.....
+Le tapis 1):
+XX.XX
+XX.XX
+X...X
+.....
+.....
+0
+XX XX XX XX XX
+XX XX XX XX XX
+XX XX XX XX XX
+Joueur [pseudo=Loyd, victoryCarte=Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]]
+Joueur [pseudo=BOT1, victoryCarte=Carte [couleur=BLEU, forme=CERCLE, remplissage=VIDE]]
+Joueur [pseudo=BOT2, victoryCarte=Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]]
+La première carte est placé par default
+Le joueur BOT1 a effectuer le coup : placer :□R a GAUCHE de △V
+Le joueur BOT2 a effectuer le coup : placer :●V a GAUCHE de □R
+NOUVEAU TOUR Joueur [pseudo=Loyd, victoryCarte=Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]] A vous de jouer
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "javax.swing.JLabel.setText(String)" because "this.Instruction" is null
+	at Vue.InterfaceGraphique.update(InterfaceGraphique.java:95)
+	at java.base/java.util.Observable.notifyObservers(Observable.java:173)
+	at Modele.Partie.debutDuTour(Partie.java:78)
+	at Modele.Partie.jouer(Partie.java:248)
+	at Main.Main.main(Main.java:43)

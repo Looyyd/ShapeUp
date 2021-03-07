@@ -1,0 +1,177 @@
+Voir nom du fichier
+Par exemple
+
+ici je voiyais cerclebleuplein et 2 triaangles bleu pleins dans ma main a la fin
+
+/home/filip/.jdks/openjdk-15/bin/java -javaagent:/opt/idea-IU-202.7319.50/lib/idea_rt.jar=35991:/opt/idea-IU-202.7319.50/bin -Dfile.encoding=UTF-8 -classpath /home/filip/Documents/LO02/bin Main.Main
+Voulez vous jouer � la version advanced du Shape Up ? O/N
+O
+Shape Up a 2 ou 3 joueurs ? : 3
+Entrez le nombre de joueur réels ? (de 1 a 3) :1
+Selectionnez la difficulté des IA :
+0)intermediaire
+1)difficile
+0
+Entrez le nom d'un joueur : Loy
+Quel type de tapis souhaitez vous ?
+Les . representes les emplacements de carte
+Le tapis 0):
+.....
+.....
+.....
+Le tapis 1):
+XX.XX
+XX.XX
+X...X
+.....
+.....
+0
+0) Carte [couleur=ROUGE, forme=CARRE, remplissage=VIDE]
+1) Carte [couleur=ROUGE, forme=CERCLE, remplissage=PLEIN]
+2) Carte [couleur=VERT, forme=CARRE, remplissage=PLEIN]
+Quelle carte voulez vous placer ?Joueur [pseudo=Loy, victoryCarte=null]
+0
+Votre carte a été placer par défaut
+Le joueur BOT1 a effectuer le coup : placer :●V a GAUCHE de □R
+Le joueur BOT2 a effectuer le coup : placer :○B a GAUCHE de ●V
+NOUVEAU TOUR Joueur [pseudo=Loy, victoryCarte=null] A vous de jouer
+XX XX XX XX XX
+○B ●V □R XX XX
+XX XX XX XX XX
+Voici vos carte
+0) Carte [couleur=ROUGE, forme=CERCLE, remplissage=PLEIN]
+1) Carte [couleur=VERT, forme=CARRE, remplissage=PLEIN]
+2) Carte [couleur=BLEU, forme=CERCLE, remplissage=PLEIN]
+ Souhaitez vous deplacer une carte avant de placer une carte ? O/N
+0) placer :■V a GAUCHE de ○B
+1) placer :■V a HAUT de ○B
+2) placer :■V a BAS de ○B
+3) placer :■V a HAUT de ●V
+4) placer :■V a BAS de ●V
+5) placer :■V a DROITE de □R
+6) placer :■V a HAUT de □R
+7) placer :■V a BAS de □R
+Ou souhaitez vous placer votre carte ?
+XX XX XX XX XX
+○B ●V □R XX XX
+XX XX XX XX XX
+Souhaiter vous desormais bouger une carte?
+XX XX XX XX XX
+○B ●V □R ■V XX
+XX XX XX XX XX
+N
+Le joueur BOT1 a effectuer le coup : placer :▲V a GAUCHE de ○B
+Le joueur BOT2 a effectuer le coup : placer :△V a HAUT de ▲V
+NOUVEAU TOUR Joueur [pseudo=Loy, victoryCarte=null] A vous de jouer
+△V XX XX XX XX
+▲V ○B ●V □R ■V
+XX XX XX XX XX
+Voici vos carte
+0) Carte [couleur=ROUGE, forme=CERCLE, remplissage=PLEIN]
+1) Carte [couleur=BLEU, forme=CERCLE, remplissage=PLEIN]
+2) Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]
+ Souhaitez vous deplacer une carte avant de placer une carte ? O/N
+0) placer :○B a DROITE de △V
+1) placer :○B a HAUT de △V
+2) placer :○B a DROITE de ▲V
+3) placer :○B a BAS de ▲V
+4) placer :○B a HAUT de ●V
+5) placer :○B a BAS de ●V
+6) placer :○B a HAUT de □R
+7) placer :○B a BAS de □R
+8) placer :○B a HAUT de ■V
+9) placer :○B a BAS de ■V
+△V XX XX XX XX
+▲V XX ●V □R ■V
+XX XX XX XX XX
+Quelle carte voulez vous placer ?
+0) Carte [couleur=ROUGE, forme=CERCLE, remplissage=PLEIN]
+1) Carte [couleur=BLEU, forme=CERCLE, remplissage=PLEIN]
+2) Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]
+△V XX ○B XX XX
+▲V XX ●V □R ■V
+XX XX XX XX XX
+Vous devez maintenant poser une carte
+0) placer :●R a DROITE de △V
+1) placer :●R a HAUT de △V
+2) placer :●R a DROITE de ○B
+3) placer :●R a HAUT de ○B
+4) placer :●R a DROITE de ▲V
+5) placer :●R a BAS de ▲V
+6) placer :●R a BAS de ●V
+7) placer :●R a BAS de □R
+8) placer :●R a HAUT de ■V
+9) placer :●R a BAS de ■V
+Ou souhaitez vous placer votre carte ?
+△V XX ○B XX XX
+▲V XX ●V □R ■V
+XX XX XX XX XX
+Le joueur BOT1 a effectuer le coup : placer :○V a DROITE de △V
+Le joueur BOT2 a effectuer le coup : placer :■B a BAS de ○V
+NOUVEAU TOUR Joueur [pseudo=Loy, victoryCarte=null] A vous de jouer
+△V ○V ○B XX XX
+▲V ■B ●V □R ■V
+XX XX ●R XX XX
+Voici vos carte
+0) Carte [couleur=BLEU, forme=CERCLE, remplissage=PLEIN]
+1) Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]
+2) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+ Souhaitez vous deplacer une carte avant de placer une carte ? O/N
+0) placer :■V a GAUCHE de △V
+1) placer :■V a DROITE de ○B
+2) placer :■V a GAUCHE de ▲V
+3) placer :■V a BAS de ▲V
+4) placer :■V a BAS de ■B
+5) placer :■V a DROITE de □R
+6) placer :■V a BAS de □R
+△V ○V ○B XX XX
+▲V ■B ●V □R XX
+XX XX ●R XX XX
+Quelle carte voulez vous placer ?
+0) Carte [couleur=BLEU, forme=CERCLE, remplissage=PLEIN]
+1) Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]
+2) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+△V ○V ○B XX XX
+▲V ■B ●V □R XX
+■V XX ●R XX XX
+Vous devez maintenant poser une carte
+0) placer :□V a GAUCHE de △V
+1) placer :□V a DROITE de ○B
+2) placer :□V a GAUCHE de ▲V
+3) placer :□V a BAS de ■B
+4) placer :□V a DROITE de □R
+5) placer :□V a BAS de □R
+6) placer :□V a GAUCHE de ■V
+Ou souhaitez vous placer votre carte ?
+△V ○V ○B XX XX
+▲V ■B ●V □R XX
+■V XX ●R XX XX
+Le joueur BOT1 a effectuer le coup : placer :▲R a BAS de □V
+Le joueur BOT2 a effectuer le coup : placer :■R a DROITE de ○B
+NOUVEAU TOUR Joueur [pseudo=Loy, victoryCarte=null] A vous de jouer
+□V △V ○V ○B ■R
+▲R ▲V ■B ●V □R
+XX ■V XX ●R XX
+Voici vos carte
+0) Carte [couleur=BLEU, forme=CERCLE, remplissage=PLEIN]
+1) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+ Souhaitez vous deplacer une carte avant de placer une carte ? O/N
+0) placer :▲B a BAS de ▲R
+1) placer :▲B a BAS de ■B
+2) placer :▲B a BAS de □R
+Ou souhaitez vous placer votre carte ?
+□V △V ○V ○B ■R
+▲R ▲V ■B ●V □R
+XX ■V XX ●R XX
+Souhaiter vous desormais bouger une carte?
+□V △V ○V ○B ■R
+▲R ▲V ■B ●V □R
+XX ■V ▲B ●R XX
+N
+Le joueur BOT1 a effectuer le coup : placer :□B a BAS de ▲R
+□V △V ○V ○B ■R
+▲R ▲V ■B ●V □R
+□B ■V ▲B ●R XX
+Score du joueur Loy : 10 avec la carte victoire :●B
+Score du joueur BOT1 : 7 avec la carte victoire :○R
+Score du joueur BOT2 : 6 avec la carte victoire :△R

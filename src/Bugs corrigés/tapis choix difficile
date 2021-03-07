@@ -1,0 +1,26 @@
+En dessous la ligne de commande, voir le screen shot(05/01 17h59) pour ce que l'on voit en graphique
+
+/home/filip/.jdks/openjdk-15/bin/java -javaagent:/opt/idea-IU-202.7319.50/lib/idea_rt.jar=44843:/opt/idea-IU-202.7319.50/bin -Dfile.encoding=UTF-8 -classpath /home/filip/Documents/LO02/bin Main.Main
+Voulez vous jouer � la version advanced du Shape Up ? O/N
+O
+ShapeUp � 2 o� � 3 joueurs ?
+3
+Entrez le nombre de joueur r�els ? (de 0 � 3) :ok
+1
+Selectionnez la difficulté des IA :
+0)intermediaire
+1)difficile
+0
+Entrez le nom d'un joueur : tonton
+Quel type de tapis souhaitez vous ?
+Les . representes les emplacements de carte
+Le tapis 0):
+.....
+.....
+.....
+Le tapis 1):
+XX.XX
+XX.XX
+X...X
+.....
+.....

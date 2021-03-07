@@ -1,0 +1,14 @@
+	*CHOSES A FAIRE GUI:
+	*rendre plus claires les isntructions affiché en gui, peut etre buffer plusieurs instructions de fois
+	*resize les icones pour qu'elle s'affichent si la fenetre est plus petite
+	*fixer le panel afin que le tepis ne change pas de taille lorque l'on pose notre carte en partie normale
+	*icone plus joli pour les coups possibles
+	*surligner la cart een main qui est en train d'etre posé
+	* retours en arrière?
+
+
+
+	 * CHOSES A FAIRE
+	 * -Permettre de rejouer une partie
+	 * -Permettre d'annuler un coup?
+	 * -Permmetre de donner un tapis personnalisé

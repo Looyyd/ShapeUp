@@ -1,0 +1,11 @@
+/home/filip/.jdks/openjdk-15/bin/java -javaagent:/opt/idea-IU-202.7319.50/lib/idea_rt.jar=40645:/opt/idea-IU-202.7319.50/bin -Dfile.encoding=UTF-8 -classpath /home/filip/Documents/LO02/bin Main.Main
+Voulez vous jouer � la version advanced du Shape Up ? O/N
+O
+O
+Shape Up a 2 ou 3 joueurs ? : 2
+Entrez le nombre de joueur réels ? (de 1 a 2) :2
+Selectionnez la difficulté des IA :
+0)intermediaire
+1)difficile
+0
+Entrez le nom d'un joueur : 

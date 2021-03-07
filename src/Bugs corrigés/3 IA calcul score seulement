@@ -1,0 +1,72 @@
+/home/filip/.jdks/openjdk-15/bin/java -javaagent:/opt/idea-IU-202.7319.50/lib/idea_rt.jar=40875:/opt/idea-IU-202.7319.50/bin -Dfile.encoding=UTF-8 -classpath /home/filip/Documents/LO02/bin Main.Main
+Voulez vous jouer � la version advanced du Shape Up ? O/N
+N
+Shape Up a 2 ou 3 joueurs ? : 3
+Entrez le nombre de joueur réels ? (de 1 a 3) :1
+Selectionnez la difficulté des IA :
+0)intermediaire
+1)difficile
+0
+Entrez le nom d'un joueur : Loyd
+Carte [couleur=ROUGE, forme=CARRE, remplissage=PLEIN]
+Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=PLEIN]
+Carte [couleur=BLEU, forme=TRIANGLE, remplissage=VIDE]
+Carte [couleur=ROUGE, forme=CERCLE, remplissage=VIDE]
+Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=VIDE]
+Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+Carte [couleur=ROUGE, forme=CARRE, remplissage=VIDE]
+Carte [couleur=ROUGE, forme=CERCLE, remplissage=PLEIN]
+Carte [couleur=VERT, forme=CARRE, remplissage=PLEIN]
+Carte [couleur=BLEU, forme=CARRE, remplissage=VIDE]
+Carte [couleur=VERT, forme=TRIANGLE, remplissage=VIDE]
+Carte [couleur=BLEU, forme=CARRE, remplissage=PLEIN]
+Carte [couleur=VERT, forme=CERCLE, remplissage=PLEIN]
+Carte [couleur=VERT, forme=TRIANGLE, remplissage=PLEIN]
+Carte [couleur=VERT, forme=CERCLE, remplissage=VIDE]
+Carte [couleur=BLEU, forme=CERCLE, remplissage=VIDE]
+Carte [couleur=BLEU, forme=CERCLE, remplissage=PLEIN]
+Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]
+Quel type de tapis souhaitez vous ?
+Les . representes les emplacements de carte
+Le tapis 0):
+.....
+.....
+.....
+Le tapis 1):
+XX.XX
+XX.XX
+X...X
+.....
+.....
+0
+Joueur [pseudo=Loyd, victoryCarte=Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=PLEIN]]
+Joueur [pseudo=BOT1, victoryCarte=Carte [couleur=BLEU, forme=TRIANGLE, remplissage=VIDE]]
+Joueur [pseudo=BOT2, victoryCarte=Carte [couleur=ROUGE, forme=CERCLE, remplissage=VIDE]]
+La première carte est placé par default
+Le joueur BOT1 a effectuer le coup : placer :▲B a GAUCHE de △R
+Le joueur BOT2 a effectuer le coup : placer :□R a GAUCHE de ▲B
+NOUVEAU TOUR Joueur [pseudo=Loyd, victoryCarte=Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=PLEIN]] A vous de jouer
+XX XX XX XX XX
+□R ▲B △R XX XX
+XX XX XX XX XX
+Vous avez pioché :□R Souhaitez vous deplacer une carte avant de placer la carte pioché ? O/N
+N
+0) placer :□R a GAUCHE de □R
+1) placer :□R a HAUT de □R
+2) placer :□R a BAS de □R
+3) placer :□R a HAUT de ▲B
+4) placer :□R a BAS de ▲B
+5) placer :□R a DROITE de △R
+6) placer :□R a HAUT de △R
+7) placer :□R a BAS de △R
+Ou souhaitez vous placer votre carte ?
+4
+Souhaitez vous desormais deplacer une carte?O/N
+N
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Modele.Tapis.placerCarte(Tapis.java:424)
+	at Modele.Tapis.effectuerCoup(Tapis.java:271)
+	at Modele.StrategiePlacementSeulementAvecCalculScore.effectuerTour(StrategiePlacementSeulementAvecCalculScore.java:18)
+	at Modele.Partie.effectuerTourIANormal(Partie.java:51)
+	at Modele.Partie.jouer(Partie.java:233)
+	at Main.Main.main(Main.java:45)

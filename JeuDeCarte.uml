@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.utt.LO02.ShapeUp.Modele.JeuDeCarte</OriginalElement>
+  <nodes>
+    <node x="995.5564089481948" y="0.0">fr.utt.LO02.ShapeUp.Modele.Remplissage</node>
+    <node x="973.2369623233913" y="940.0">fr.utt.LO02.ShapeUp.Modele.Partie</node>
+    <node x="372.004362899006" y="1110.0">fr.utt.LO02.ShapeUp.Controleurs.ControleurTexte</node>
+    <node x="871.5564089481948" y="0.0">fr.utt.LO02.ShapeUp.Modele.Couleur</node>
+    <node x="184.70912480376785" y="400.0">fr.utt.LO02.ShapeUp.Modele.Coup</node>
+    <node x="126.85358843537392" y="570.0">fr.utt.LO02.ShapeUp.Modele.Tapis</node>
+    <node x="439.5940646258502" y="660.0">fr.utt.LO02.ShapeUp.Controleurs.ControleurCarteEnMain</node>
+    <node x="946.5996009942442" y="770.0">fr.utt.LO02.ShapeUp.Modele.EtatDuTour</node>
+    <node x="903.2230756148614" y="400.0">fr.utt.LO02.ShapeUp.Modele.Joueur</node>
+    <node x="884.2230756148614" y="130.0">fr.utt.LO02.ShapeUp.Modele.Carte</node>
+    <node x="875.0496009942442" y="1110.0">fr.utt.LO02.ShapeUp.Controleurs.ControleurTextField</node>
+    <node x="675.5940646258503" y="660.0">fr.utt.LO02.ShapeUp.Controleurs.ControleurFinTour</node>
+    <node x="1095.0496009942442" y="1110.0">fr.utt.LO02.ShapeUp.Controleurs.ControleurBtnChoix</node>
+    <node x="1139.2274385138671" y="320.0">fr.utt.LO02.ShapeUp.Modele.JeuDeCarte</node>
+    <node x="763.5564089481948" y="0.0">fr.utt.LO02.ShapeUp.Modele.Forme</node>
+    <node x="204.65358843537388" y="660.0">fr.utt.LO02.ShapeUp.Controleurs.ControleurTapis</node>
+    <node x="311.9994165358454" y="770.0">fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Carte" target="fr.utt.LO02.ShapeUp.Modele.Couleur">
+      <point x="-7.3333333333332575" y="-15.0" />
+      <point x="920.8897422815281" y="90.0" />
+      <point x="888.889742281528" y="90.0" />
+      <point x="-34.66666666666674" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Partie" target="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique">
+      <point x="-31.19999999999999" y="-15.0" />
+      <point x="990.0369623233912" y="890.0" />
+      <point x="335.9994165358454" y="890.0" />
+      <point x="-72.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.JeuDeCarte" target="fr.utt.LO02.ShapeUp.Modele.Forme">
+      <point x="18.28571428571422" y="-15.0" />
+      <point x="1221.5131527995813" y="200.0" />
+      <point x="1191.3897422815278" y="200.0" />
+      <point x="1191.3897422815278" y="70.0" />
+      <point x="836.889742281528" y="70.0" />
+      <point x="29.333333333333258" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTexte" target="fr.utt.LO02.ShapeUp.Modele.Partie">
+      <point x="31.5" y="-15.0" />
+      <point x="487.504362899006" y="1050.0" />
+      <point x="982.8369623233912" y="1050.0" />
+      <point x="-38.39999999999998" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Carte" target="fr.utt.LO02.ShapeUp.Modele.Remplissage">
+      <point x="22.0" y="-15.0" />
+      <point x="950.2230756148614" y="100.0" />
+      <point x="1018.2230756148615" y="100.0" />
+      <point x="-45.33333333333326" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTextField" target="fr.utt.LO02.ShapeUp.Modele.JeuDeCarte">
+      <point x="66.66666666666669" y="-15.0" />
+      <point x="1041.716267660911" y="1090.0" />
+      <point x="1242.0071834118264" y="1090.0" />
+      <point x="1242.0071834118264" y="380.0" />
+      <point x="1235.2274385138671" y="380.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Tapis" target="fr.utt.LO02.ShapeUp.Modele.Joueur">
+      <point x="38.5" y="-15.0" />
+      <point x="209.35358843537392" y="520.0" />
+      <point x="909.2230756148614" y="520.0" />
+      <point x="-42.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTexte" target="fr.utt.LO02.ShapeUp.Modele.Carte">
+      <point x="-52.5" y="-15.0" />
+      <point x="403.504362899006" y="1080.0" />
+      <point x="11.0" y="1080.0" />
+      <point x="11.0" y="220.0" />
+      <point x="890.5087899005756" y="220.0" />
+      <point x="-37.71428571428578" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurFinTour" target="fr.utt.LO02.ShapeUp.Modele.Partie">
+      <point x="69.0" y="15.0" />
+      <point x="836.5940646258503" y="750.0" />
+      <point x="1085.0996009942442" y="750.0" />
+      <point x="1085.0996009942442" y="830.0" />
+      <point x="1023.6369623233911" y="830.0" />
+      <point x="2.3999999999999773" y="-15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTapis" target="fr.utt.LO02.ShapeUp.Modele.Tapis">
+      <point x="-42.0" y="-15.0" />
+      <point x="246.65358843537388" y="640.0" />
+      <point x="201.65358843537388" y="640.0" />
+      <point x="30.799999999999955" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique" target="fr.utt.LO02.ShapeUp.Modele.Carte">
+      <point x="-14.769230769230717" y="-15.0" />
+      <point x="393.2301857666147" y="750.0" />
+      <point x="398.34406462585025" y="750.0" />
+      <point x="398.34406462585025" y="290.0" />
+      <point x="919.8421232339091" y="290.0" />
+      <point x="-8.380952380952294" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.JeuDeCarte" target="fr.utt.LO02.ShapeUp.Modele.Carte">
+      <point x="-54.85714285714289" y="-15.0" />
+      <point x="1148.370295656724" y="240.0" />
+      <point x="957.5564089481946" y="240.0" />
+      <point x="29.333333333333258" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Partie" target="fr.utt.LO02.ShapeUp.Modele.Joueur">
+      <point x="12.0" y="-15.0" />
+      <point x="1033.2369623233913" y="850.0" />
+      <point x="1098.004362899006" y="850.0" />
+      <point x="1098.004362899006" y="540.0" />
+      <point x="969.2230756148614" y="540.0" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique" target="fr.utt.LO02.ShapeUp.Controleurs.ControleurCarteEnMain">
+      <point x="29.538461538461547" y="-15.0" />
+      <point x="437.53787807430695" y="710.0" />
+      <point x="475.5940646258502" y="710.0" />
+      <point x="-72.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique" target="fr.utt.LO02.ShapeUp.Modele.Joueur">
+      <point x="14.769230769230717" y="-15.0" />
+      <point x="422.7686473050761" y="750.0" />
+      <point x="429.09406462585025" y="750.0" />
+      <point x="429.09406462585025" y="530.0" />
+      <point x="921.2230756148614" y="530.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurCarteEnMain" target="fr.utt.LO02.ShapeUp.Modele.Tapis">
+      <point x="-54.0" y="-15.0" />
+      <point x="493.5940646258502" y="630.0" />
+      <point x="210.45358843537394" y="630.0" />
+      <point x="39.60000000000002" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurBtnChoix" target="fr.utt.LO02.ShapeUp.Modele.Partie">
+      <point x="-38.40000000000009" y="-15.0" />
+      <point x="1152.649600994244" y="1010.0" />
+      <point x="1040.4369623233913" y="1010.0" />
+      <point x="19.200000000000045" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Joueur" target="fr.utt.LO02.ShapeUp.Modele.JeuDeCarte">
+      <point x="36.0" y="-15.0" />
+      <point x="987.2230756148614" y="380.0" />
+      <point x="1149.8941051805336" y="380.0" />
+      <point x="-53.33333333333326" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Carte" target="fr.utt.LO02.ShapeUp.Modele.Forme">
+      <point x="-36.66666666666674" y="-15.0" />
+      <point x="891.5564089481946" y="110.0" />
+      <point x="778.2230756148615" y="110.0" />
+      <point x="-29.333333333333258" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTextField" target="fr.utt.LO02.ShapeUp.Modele.Partie">
+      <point x="0.0" y="-15.0" />
+      <point x="975.0496009942442" y="1070.0" />
+      <point x="1021.2369623233913" y="1070.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurBtnChoix" target="fr.utt.LO02.ShapeUp.Modele.Carte">
+      <point x="38.40000000000009" y="-15.0" />
+      <point x="1229.4496009942443" y="990.0" />
+      <point x="1128.7274385138671" y="990.0" />
+      <point x="1128.7274385138671" y="250.0" />
+      <point x="953.3659327577185" y="250.0" />
+      <point x="25.14285714285711" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Carte" target="fr.utt.LO02.ShapeUp.Modele.Partie">
+      <point x="16.761904761904816" y="15.0" />
+      <point x="944.9849803767662" y="270.0" />
+      <point x="1119.7369623233908" y="270.0" />
+      <point x="1119.7369623233908" y="890.0" />
+      <point x="1052.436962323391" y="890.0" />
+      <point x="31.19999999999999" y="-15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Partie" target="fr.utt.LO02.ShapeUp.Modele.Carte">
+      <point x="26.399999999999977" y="-15.0" />
+      <point x="1047.6369623233911" y="880.0" />
+      <point x="1114.936962323391" y="880.0" />
+      <point x="1114.936962323391" y="280.0" />
+      <point x="940.79450418629" y="280.0" />
+      <point x="12.571428571428669" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Joueur" target="fr.utt.LO02.ShapeUp.Modele.Carte">
+      <point x="-36.0" y="-15.0" />
+      <point x="915.2230756148614" y="380.0" />
+      <point x="928.2230756148614" y="380.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Partie" target="fr.utt.LO02.ShapeUp.Modele.EtatDuTour">
+      <point x="-7.199999999999989" y="-15.0" />
+      <point x="1014.0369623233912" y="840.0" />
+      <point x="978.5996009942442" y="840.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurBtnChoix" target="fr.utt.LO02.ShapeUp.Modele.Tapis">
+      <point x="-76.79999999999995" y="-15.0" />
+      <point x="1114.2496009942442" y="1020.0" />
+      <point x="160.75358843537379" y="1020.0" />
+      <point x="160.75358843537379" y="640.0" />
+      <point x="157.65358843537388" y="640.0" />
+      <point x="-13.200000000000045" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurFinTour" target="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique">
+      <point x="23.0" y="15.0" />
+      <point x="790.5940646258503" y="750.0" />
+      <point x="496.61480115123004" y="750.0" />
+      <point x="88.61538461538464" y="-15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTexte" target="fr.utt.LO02.ShapeUp.Modele.Joueur">
+      <point x="10.5" y="-15.0" />
+      <point x="466.504362899006" y="1040.0" />
+      <point x="870.0940646258503" y="1040.0" />
+      <point x="870.0940646258503" y="550.0" />
+      <point x="945.2230756148614" y="550.0" />
+      <point x="-6.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.JeuDeCarte" target="fr.utt.LO02.ShapeUp.Modele.Remplissage">
+      <point x="54.85714285714289" y="-15.0" />
+      <point x="1258.0845813710098" y="180.0" />
+      <point x="1213.3897422815278" y="180.0" />
+      <point x="1213.3897422815278" y="50.0" />
+      <point x="1108.889742281528" y="50.0" />
+      <point x="45.33333333333326" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique" target="fr.utt.LO02.ShapeUp.Modele.Coup">
+      <point x="-29.538461538461547" y="-15.0" />
+      <point x="378.46095499738385" y="750.0" />
+      <point x="383.1535884353739" y="750.0" />
+      <point x="383.1535884353739" y="510.0" />
+      <point x="256.70912480376785" y="510.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique" target="fr.utt.LO02.ShapeUp.Modele.Tapis">
+      <point x="-88.61538461538464" y="-15.0" />
+      <point x="319.38403192046076" y="740.0" />
+      <point x="183.15358843537388" y="740.0" />
+      <point x="13.199999999999932" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTapis" target="fr.utt.LO02.ShapeUp.Modele.Carte">
+      <point x="42.0" y="-15.0" />
+      <point x="330.6535884353739" y="640.0" />
+      <point x="394.1535884353739" y="640.0" />
+      <point x="394.1535884353739" y="280.0" />
+      <point x="915.6516470434327" y="280.0" />
+      <point x="-12.571428571428669" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Partie" target="fr.utt.LO02.ShapeUp.Modele.Tapis">
+      <point x="-45.599999999999966" y="-15.0" />
+      <point x="975.6369623233912" y="920.0" />
+      <point x="169.55358843537397" y="920.0" />
+      <point x="169.55358843537397" y="640.0" />
+      <point x="166.45358843537394" y="640.0" />
+      <point x="-4.399999999999977" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurCarteEnMain" target="fr.utt.LO02.ShapeUp.Modele.Joueur">
+      <point x="54.0" y="-15.0" />
+      <point x="601.5940646258503" y="540.0" />
+      <point x="933.2230756148614" y="540.0" />
+      <point x="-18.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Tapis" target="fr.utt.LO02.ShapeUp.Modele.Carte">
+      <point x="-27.5" y="-15.0" />
+      <point x="143.35358843537392" y="460.0" />
+      <point x="161.05436289900592" y="460.0" />
+      <point x="161.05436289900592" y="240.0" />
+      <point x="898.8897422815281" y="240.0" />
+      <point x="-29.333333333333258" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTexte" target="fr.utt.LO02.ShapeUp.Modele.JeuDeCarte">
+      <point x="73.5" y="-15.0" />
+      <point x="529.5043628990061" y="1080.0" />
+      <point x="1195.2941051805337" y="1080.0" />
+      <point x="1195.2941051805337" y="380.0" />
+      <point x="1213.8941051805336" y="380.0" />
+      <point x="10.666666666666742" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Partie" target="fr.utt.LO02.ShapeUp.Modele.JeuDeCarte">
+      <point x="40.80000000000001" y="-15.0" />
+      <point x="1062.0369623233912" y="910.0" />
+      <point x="1155.4774385138671" y="910.0" />
+      <point x="1155.4774385138671" y="380.0" />
+      <point x="1171.2274385138671" y="380.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTexte" target="fr.utt.LO02.ShapeUp.Modele.Tapis">
+      <point x="-31.5" y="-15.0" />
+      <point x="424.504362899006" y="1070.0" />
+      <point x="27.695238095237983" y="1070.0" />
+      <point x="27.695238095237983" y="620.0" />
+      <point x="131.2535884353739" y="620.0" />
+      <point x="-39.60000000000002" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Coup" target="fr.utt.LO02.ShapeUp.Modele.Carte">
+      <point x="-20.0" y="-15.0" />
+      <point x="204.70912480376785" y="380.0" />
+      <point x="219.20912480376785" y="380.0" />
+      <point x="219.20912480376785" y="260.0" />
+      <point x="907.2706946624804" y="260.0" />
+      <point x="-20.952380952380963" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTapis" target="fr.utt.LO02.ShapeUp.Modele.Partie">
+      <point x="-56.0" y="15.0" />
+      <point x="232.65358843537388" y="750.0" />
+      <point x="266.4041784406072" y="750.0" />
+      <point x="266.4041784406072" y="900.0" />
+      <point x="985.2369623233913" y="900.0" />
+      <point x="-36.0" y="-15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique" target="fr.utt.LO02.ShapeUp.Controleurs.ControleurTapis">
+      <point x="-59.076923076923094" y="-15.0" />
+      <point x="348.9224934589223" y="720.0" />
+      <point x="288.6535884353739" y="720.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.JeuDeCarte" target="fr.utt.LO02.ShapeUp.Modele.Couleur">
+      <point x="36.57142857142867" y="-15.0" />
+      <point x="1239.7988670852956" y="190.0" />
+      <point x="1202.3897422815278" y="190.0" />
+      <point x="1202.3897422815278" y="60.0" />
+      <point x="958.2230756148615" y="60.0" />
+      <point x="34.66666666666674" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Modele.Tapis" target="fr.utt.LO02.ShapeUp.Modele.Coup">
+      <point x="-5.5" y="-15.0" />
+      <point x="165.35358843537392" y="480.0" />
+      <point x="192.70912480376785" y="480.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurBtnChoix" target="fr.utt.LO02.ShapeUp.Modele.JeuDeCarte">
+      <point x="76.79999999999995" y="-15.0" />
+      <point x="1267.8496009942442" y="1090.0" />
+      <point x="1253.0071834118264" y="1090.0" />
+      <point x="1253.0071834118264" y="380.0" />
+      <point x="1256.5607718472002" y="380.0" />
+      <point x="53.33333333333326" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurTextField" target="fr.utt.LO02.ShapeUp.Modele.Tapis">
+      <point x="-66.66666666666669" y="-15.0" />
+      <point x="908.3829343275775" y="1030.0" />
+      <point x="59.456958398743836" y="1030.0" />
+      <point x="59.456958398743836" y="640.0" />
+      <point x="148.85358843537392" y="640.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique" target="fr.utt.LO02.ShapeUp.Controleurs.ControleurFinTour">
+      <point x="59.076923076923094" y="-15.0" />
+      <point x="467.0763396127685" y="730.0" />
+      <point x="698.5940646258503" y="730.0" />
+      <point x="-69.0" y="15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Vue.InterfaceGraphique" target="fr.utt.LO02.ShapeUp.Modele.Partie">
+      <point x="24.0" y="15.0" />
+      <point x="431.9994165358454" y="870.0" />
+      <point x="999.6369623233912" y="870.0" />
+      <point x="-21.599999999999966" y="-15.0" />
+    </edge>
+    <edge source="fr.utt.LO02.ShapeUp.Controleurs.ControleurCarteEnMain" target="fr.utt.LO02.ShapeUp.Modele.Partie">
+      <point x="72.0" y="15.0" />
+      <point x="619.5940646258503" y="720.0" />
+      <point x="573.3496009942442" y="720.0" />
+      <point x="573.3496009942442" y="850.0" />
+      <point x="1009.2369623233913" y="850.0" />
+      <point x="-12.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="628.625" y="586.75" />
+  <SelectedNodes>
+    <node>fr.utt.LO02.ShapeUp.Controleurs.ControleurTextField</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

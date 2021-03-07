@@ -1,0 +1,195 @@
+/home/filip/.jdks/openjdk-15/bin/java -javaagent:/opt/idea-IU-202.7319.50/lib/idea_rt.jar=39081:/opt/idea-IU-202.7319.50/bin -Dfile.encoding=UTF-8 -classpath /home/filip/Documents/LO02/bin Main.Main
+Voulez vous jouer � la version advanced du Shape Up ? O/N
+O
+Shape Up a 2 ou 3 joueurs ? : 3
+Entrez le nombre de joueur réels ? (de 1 a 3) :loyd
+Veuillez saisir un nombre
+Entrez le nombre de joueur réels ? (de 1 a 3) :1
+Selectionnez la difficulté des IA :
+0)intermediaire
+1)difficile
+1
+Entrez le nom d'un joueur : L
+Quel type de tapis souhaitez vous ?
+Les . representes les emplacements de carte
+Le tapis 0):
+.....
+.....
+.....
+Le tapis 1):
+XX.XX
+XX.XX
+X...X
+.....
+.....
+0
+0) Carte [couleur=VERT, forme=CERCLE, remplissage=VIDE]
+1) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+2) Carte [couleur=ROUGE, forme=CARRE, remplissage=PLEIN]
+Quelle carte voulez vous placer ?
+0
+0
+Votre carte a été placer par défaut
+Le joueur BOT1 a effectuer le coup : placer :□B a GAUCHE de ○V
+Le joueur BOT2 a bougé une carte : placer :□B a GAUCHE de ○V
+Le joueur BOT2 a effectuer le coup : placer :○B a GAUCHE de □B
+NOUVEAU TOUR Joueur [pseudo=L, victoryCarte=null] A vous de jouer
+XX XX XX XX XX
+○B □B ○V XX XX
+XX XX XX XX XX
+Voici vos carte
+0) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+1) Carte [couleur=ROUGE, forme=CARRE, remplissage=PLEIN]
+2) Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=PLEIN]
+ Souhaitez vous deplacer une carte avant de placer une carte ? O/N
+N
+Quelle carte voulez vous placer ?
+0) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+1) Carte [couleur=ROUGE, forme=CARRE, remplissage=PLEIN]
+2) Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=PLEIN]
+XX XX XX XX XX
+○B □B ○V XX XX
+XX XX XX XX XX
+1
+0) placer :■R a GAUCHE de ○B
+1) placer :■R a HAUT de ○B
+2) placer :■R a BAS de ○B
+3) placer :■R a HAUT de □B
+4) placer :■R a BAS de □B
+5) placer :■R a DROITE de ○V
+6) placer :■R a HAUT de ○V
+7) placer :■R a BAS de ○V
+Ou souhaitez vous placer votre carte ?
+7
+Souhaitez vous desormait bouger une carte?
+N
+Le joueur BOT1 a bougé une carte : placer :○B a DROITE de ○V
+Le joueur BOT1 a effectuer le coup : placer :●V a HAUT de ○V
+Le joueur BOT2 a bougé une carte : placer :●V a GAUCHE de □B
+Le joueur BOT2 a effectuer le coup : placer :■B a GAUCHE de ●V
+NOUVEAU TOUR Joueur [pseudo=L, victoryCarte=null] A vous de jouer
+XX XX XX XX XX
+■B ●V □B ○V ○B
+XX XX XX ■R XX
+Voici vos carte
+0) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+1) Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=PLEIN]
+2) Carte [couleur=VERT, forme=TRIANGLE, remplissage=VIDE]
+ Souhaitez vous deplacer une carte avant de placer une carte ? O/N
+O
+Quel carte souhaitez vous deplacer ?
+0) Carte [couleur=BLEU, forme=CARRE, remplissage=PLEIN]
+1) Carte [couleur=VERT, forme=CERCLE, remplissage=PLEIN]
+2) Carte [couleur=BLEU, forme=CARRE, remplissage=VIDE]
+3) Carte [couleur=VERT, forme=CERCLE, remplissage=VIDE]
+4) Carte [couleur=BLEU, forme=CERCLE, remplissage=VIDE]
+5) Carte [couleur=ROUGE, forme=CARRE, remplissage=PLEIN]
+4
+XX XX XX XX XX
+■B ●V □B ○V XX
+XX XX XX ■R XX
+0) placer :○B a GAUCHE de ■B
+1) placer :○B a HAUT de ■B
+2) placer :○B a BAS de ■B
+3) placer :○B a HAUT de ●V
+4) placer :○B a BAS de ●V
+5) placer :○B a HAUT de □B
+6) placer :○B a BAS de □B
+7) placer :○B a DROITE de ○V
+8) placer :○B a HAUT de ○V
+9) placer :○B a DROITE de ■R
+10) placer :○B a BAS de ■R
+10
+Quelle carte voulez vous placer ?
+0) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+1) Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=PLEIN]
+2) Carte [couleur=VERT, forme=TRIANGLE, remplissage=VIDE]
+■B ●V □B ○V XX
+XX XX XX ■R XX
+XX XX XX ○B XX
+2
+Vous devez maintenant poser une carte
+0) placer :△V a GAUCHE de ■B
+1) placer :△V a BAS de ■B
+2) placer :△V a BAS de ●V
+3) placer :△V a BAS de □B
+4) placer :△V a DROITE de ○V
+5) placer :△V a DROITE de ■R
+6) placer :△V a GAUCHE de ○B
+7) placer :△V a DROITE de ○B
+Ou souhaitez vous placer votre carte ?
+5
+Le joueur BOT1 a bougé une carte : placer :○B a DROITE de ○V
+Le joueur BOT1 a effectuer le coup : placer :■V a HAUT de ■B
+Le joueur BOT2 a bougé une carte : placer :■V a HAUT de ■B
+Le joueur BOT2 a effectuer le coup : placer :●R a DROITE de ■V
+NOUVEAU TOUR Joueur [pseudo=L, victoryCarte=null] A vous de jouer
+■V ●R XX XX XX
+■B ●V □B ○V ○B
+XX XX XX ■R △V
+Voici vos carte
+0) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+1) Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=PLEIN]
+2) Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]
+ Souhaitez vous deplacer une carte avant de placer une carte ? O/N
+1
+Veuillez répondre par oui ou par non
+Veuillez repondre par O pour oui ou N pour non
+N
+Quelle carte voulez vous placer ?
+0) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+1) Carte [couleur=ROUGE, forme=TRIANGLE, remplissage=PLEIN]
+2) Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]
+■V ●R XX XX XX
+■B ●V □B ○V ○B
+XX XX XX ■R △V
+1
+0) placer :▲R a DROITE de ●R
+1) placer :▲R a BAS de ■B
+2) placer :▲R a BAS de ●V
+3) placer :▲R a BAS de □B
+4) placer :▲R a HAUT de ○V
+5) placer :▲R a HAUT de ○B
+Ou souhaitez vous placer votre carte ?
+0
+Souhaitez vous desormait bouger une carte?
+N
+Le joueur BOT1 a bougé une carte : placer :■R a DROITE de ▲R
+Le joueur BOT1 a effectuer le coup : placer :▲V a DROITE de ■R
+Le joueur BOT2 a bougé une carte : placer :▲V a BAS de ○V
+Le joueur BOT2 a effectuer le coup : placer :△B a DROITE de ■R
+NOUVEAU TOUR Joueur [pseudo=L, victoryCarte=null] A vous de jouer
+■V ●R ▲R ■R △B
+■B ●V □B ○V ○B
+XX XX XX ▲V △V
+Voici vos carte
+0) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+1) Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]
+ Souhaitez vous deplacer une carte avant de placer une carte ? O/N
+N
+Quelle carte voulez vous placer ?
+0) Carte [couleur=BLEU, forme=TRIANGLE, remplissage=PLEIN]
+1) Carte [couleur=VERT, forme=CARRE, remplissage=VIDE]
+■V ●R ▲R ■R △B
+■B ●V □B ○V ○B
+XX XX XX ▲V △V
+0
+0) placer :▲B a BAS de ■B
+1) placer :▲B a BAS de ●V
+2) placer :▲B a BAS de □B
+Ou souhaitez vous placer votre carte ?
+3
+Veuillez saisir un int dans l'intervalle donnée
+2
+Souhaitez vous desormait bouger une carte?
+N
+Le joueur BOT1 a bougé une carte : placer :■V a BAS de ■B
+Le joueur BOT1 a effectuer le coup : placer :□R a GAUCHE de ●R
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot invoke "Modele.Carte.getCouleur()" because "carteVictoire" is null
+	at Modele.Tapis.score(Tapis.java:173)
+	at Modele.Partie.afficherScore(Partie.java:349)
+	at Modele.Partie.finDePartie(Partie.java:339)	at Modele.Partie.debutDuTour(Partie.java:75)
+	at Modele.Partie.finDuTour(Partie.java:204)
+	at Controleurs.Controleurs.inputTexte(Controleurs.java:129)
+	at Vue.VueLigneCommande.run(VueLigneCommande.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:832)
