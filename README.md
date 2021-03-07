@@ -5,7 +5,7 @@ Ce projet projet en Java a été realisé lors du semestre d'automne 2020 dans l
  La consigne du projet peut être consulté dans 'PROJET LO02.pdf'
  Les règles du jeu se situent à la fin du ce document.
 
-#####Pour resumer la consigne:
+**Pour resumer la consigne:**
 Nous devions implementer un jeu de carte en 3 étapes
 - d'abord modéliser le jeu
 - ensuite coder le moteur logique du jeu et pouvoir jouer en ligne de commande contre des ordinateurs
