@@ -1,3 +1,4 @@
+[English version](en_README.md)
 # LO02
 Ce projet projet en Java a été realisé lors du semestre d'automne 2020 dans le cadre d'une unitée
  d'enseignement appelé Principe et pratique de la programmation objets.Il fut realisé en binôme.
