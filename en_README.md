@@ -1,3 +1,4 @@
+[French version](README.md)
 # LO02
 This project in Java has been realized during the fall semester 2020 as a final project in a teaching unit called Principle and practice of object programming.
  
