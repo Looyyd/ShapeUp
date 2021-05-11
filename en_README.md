@@ -22,3 +22,9 @@ but we didn't always manage to respect the good practices, I corrected some of t
  en.utt.LO02.ShapeUp.images folder for the images to be displayed. 
  On Linux you can run it with the command: java -jar Executable.jar
 
+
+
+ Screens:
+ 
+ ![midgame](https://raw.githubusercontent.com/Looyyd/ShapeUp/master/screen1.PNG)
+![end of game](https://raw.githubusercontent.com/Looyyd/ShapeUp/master/screen2.PNG)
