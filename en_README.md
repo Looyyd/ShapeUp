@@ -24,7 +24,7 @@ but we didn't always manage to respect the good practices, I corrected some of t
 
 
 
- Screens:
+ Screenshots:
  
  ![midgame](https://raw.githubusercontent.com/Looyyd/ShapeUp/master/screen1.PNG)
 ![end of game](https://raw.githubusercontent.com/Looyyd/ShapeUp/master/screen2.PNG)
