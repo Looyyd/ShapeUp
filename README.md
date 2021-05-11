@@ -25,3 +25,8 @@ les plus grossières en mars 2021.
  Sur Linux on peut l'executer avec la commande: java -jar Executable.jar
  
  
+ Captures d'écran:
+ 
+ ![milieu de partie](https://raw.githubusercontent.com/Looyyd/ShapeUp/master/screen1.PNG)
+![fin de partie](https://raw.githubusercontent.com/Looyyd/ShapeUp/master/screen2.PNG)
+
